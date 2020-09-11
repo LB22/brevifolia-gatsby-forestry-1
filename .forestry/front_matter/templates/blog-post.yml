@@ -36,7 +36,4 @@ fields:
   description: Enter hero image for blog post here
   default: "/content/images/sarah-dorweiler-9Z1KRIfpBTM-unsplash.jpg"
 pages:
-- content/posts/an-essay-on-walking.md
 - content/posts/maste-fan-testa-igen.md
-- content/posts/ne-te-quaesiveris-extra.md
-- content/posts/this-is-a-test.md
