@@ -35,6 +35,7 @@ fields:
   - type: text
     name: github_handle
     label: github_handle
+  hidden: true
 - name: background_color
   type: color
   label: background_color
