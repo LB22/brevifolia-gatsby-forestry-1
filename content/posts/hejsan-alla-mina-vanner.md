@@ -1,6 +1,6 @@
 ---
 date: 2020-09-11T18:25:10+03:00
-hero_image: "/content/images/526486_412136178887495_139379159_n.jpg"
+hero_image: "../images/526486_412136178887495_139379159_n.jpg"
 title: Hejsan alla mina vänner
 author: Ludvag
 
