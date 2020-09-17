@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import headerStyles from "../styles/components/header.module.scss"
+import MenuIcon from '@material-ui/icons/Menu';
 
 export default function Header(props) {
   return (
@@ -8,14 +9,13 @@ export default function Header(props) {
       className={`${headerStyles.header} ${props.page === 'info' &&
         headerStyles.info_page}`}
     >
+
       <nav
         className={headerStyles.header__nav}
         role="navigation"
         aria-label="main navigation"
       >
-        <Link to="/">
-          <h1>{props.title}</h1>
-        </Link>
+
         <div>
           <h1>
             <Link
@@ -32,6 +32,15 @@ export default function Header(props) {
             </Link>
           </h1>
         </div>
+
+        <Link to="/">
+          <h1>{props.title}</h1>
+        </Link>
+
+        <Link to="/">
+          <MenuIcon />
+        </Link>
+
       </nav>
     </header>
   )
